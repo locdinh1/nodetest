@@ -1,0 +1,31 @@
+{
+  "name": "DWPNodeTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=dev && node server.js",
+    "test": "mocha -- app/tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "express-validator": "^5.1.2",
+    "govuk_template_ejs": "^0.23.2",
+    "helmet": "^3.12.0",
+    "mocha": "^5.1.1",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "needle": "^2.2.0",
+    "request": "^2.85.0",
+    "sinon": "^4.5.0",
+    "sinon-mongoose": "^2.1.1"
+  }
+}

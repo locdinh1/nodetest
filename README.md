@@ -4,16 +4,16 @@ This is a Node JS test which display a form, validate users inputs and save data
 
 ## Prerequisites
  
-- [body-parser]
-- [chai]
-- [chai-http]
-- [ejs]
-- [express]
-- [express-validator]
-- [helmet]
-- [mocha]
-- [mongoose]
-- [request]
+- [body-parser] - To handle POST request
+- [chai] - TDD assertion library
+- [chai-http] - Test http request
+- [ejs] - Template engine
+- [express] - Main framework
+- [express-validator] - To validate user inputs
+- [helmet] - To set HTTP header for security
+- [mocha] - Test framework
+- [mongoose] - To help with MongoDB interaction
+- [request] - To assist with http calls
 
 ## Project Setup 
 Assume you already have NodeJS and MongoDB installed. 
@@ -35,7 +35,7 @@ $ npm start
 
 ```
 
-Then go to your browser, type in localhost:2000
+Then go to your browser, type in localhost:2000. You should see the service up and running. 
 
 
 ## Test project

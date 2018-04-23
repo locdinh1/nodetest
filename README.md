@@ -1,12 +1,12 @@
 #A Node Test
 
-This is a Node JS test which display a form, validate users inputs and save data into MongoDB. 
+This is a Node JS test which displays a form, validates user inputs and save data into MongoDB. 
 
 ## Approach
 
-This test has been written in TDD using MVP structure. 
+This test has been written in TDD using MVC structure. 
 
-I have taken following step to build this project: 
+I have taken following steps to build this project: 
 
 1. Setup the skeleton ie: folder structure, server.js, routes etc...
 
